@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="false" name="Suite">
+	<test name="Test">
+		<classes>
+
+			<class name="com.nn.TestReport.ExtendReport" />
+			<class name="com.nn.VendorScript.DefaultSettings" />
+			<class name="com.nn.VendorScript.CreditCard" />
+			<class name="com.nn.VendorScript.CreditCard3DSecure" />
+			<class name="com.nn.VendorScript.DirectDebitSEPA" />
+			<class name="com.nn.VendorScript.GuaranteedDirectDebitSEPA" />
+			<class name="com.nn.VendorScript.Invoice" />
+			<class name="com.nn.VendorScript.GuaranteedInvoice" />
+			<class name="com.nn.VendorScript.Prepayment" />
+			<class name="com.nn.VendorScript.Barzahlen" />
+			<class name="com.nn.VendorScript.InstantBankTransfer" />
+			<class name="com.nn.VendorScript.Ideal" />
+			<class name="com.nn.VendorScript.PayPal" />
+			<class name="com.nn.VendorScript.Eps" />
+			<class name="com.nn.VendorScript.Giropay" />
+			<class name="com.nn.VendorScript.Przelewy24" />			
+			<class name="com.nn.TestReport.FlushResults" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
